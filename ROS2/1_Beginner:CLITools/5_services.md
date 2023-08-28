@@ -149,6 +149,8 @@ ros2 service find std_srvs/srv/Empty
 ### 2-5 ros2 interface show
 * 터미널에서 services 직적 호출하려면 해당 service의 내부 구조를 알아야 값을 입력할 수 있다.
 
+  https://reactive-effect.tistory.com/119
+
 * service의 구조 보기 명령 형식
 ```bash
 ros2 interface show <type_name>.srv
