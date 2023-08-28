@@ -224,3 +224,7 @@ turtlesim.srv.Spawn_Response(name='turtle2')
 
 # Quiz
 - 서비스 호출 하여 /turtle1/set_pen 색상을 변경해보세요
+
+ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 255, g: 255, b: 255, width: 10}" 
+requester: making request: turtlesim.srv.SetPen_Request(r=255, g=255, b=255, width=10, off=0) 
+response: turtlesim.srv.SetPen_Response()
