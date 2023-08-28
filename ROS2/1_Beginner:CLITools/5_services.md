@@ -184,7 +184,10 @@ string name
    * spawn시키기 위해서 x, y, theta -> 생성할 turtle의 2D pose
    * name은 option
 
-### 2-6 ros2 service call (TURTLESIM 노드를 동작할 때 표시되는 이동 궤적을 지우는 서비스이다.)
+### 2-6 ros2 service call 
+
+TURTLESIM 노드를 동작할 때 표시되는 이동 궤적을 지우는 서비스이다.
+
 * service type을 알게 되었으니 이를 이용해서 service 호출하는 명령 형식
 ```bash
 ros2 service call <service_name> <service_type> <arguments>
