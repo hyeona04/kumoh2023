@@ -250,4 +250,8 @@ average rate: 59.354
 
 - '/jaeun(본인이름)' 토픽으로 "hello ros2" 메시지를 10Hz로 발행하고, 이를 echo로 확인하십시오.
 
+
+ros2 topis pub /hannah std_msgs/msg/string "data: 'hello ros2'" -r 10
+
+
 - 메시지 타입 : std_msgs/msg/String [링크](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/String.html)
